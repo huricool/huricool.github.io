@@ -9,7 +9,7 @@ version: 2
 name: Sean Park
 title: Senior Software Engineer
 email: spark@goodpattern.design
-website: https://huricool.github.io
+website: goodpattern.design
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,7 +22,7 @@ github_username:  huricool
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: huricool
-linkedin_username: huricool
+linkedin_username: sean-park-72816a29
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,9 +31,9 @@ linkedin_username: huricool
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: goodpattern.design
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://goodpattern.design
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -57,13 +57,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Trevipay
+        link: trevipay.com
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            icon: fab fa-browser
+            url: trevipay.com
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          The Global B2B Payments & Invoicing Network
+        description: | # this will include new lines to allow paragraphs
+          developed Trevipay core system from a scratch with Microservice architecture and automated CI/CD.
+      - layout: top-middle
+        title: MMS gateway of KT Telecom in S.Korea
+        link: kt.com
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-browser
+            url: kt.com
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -76,41 +91,84 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Trevipay
+        link: trevipay.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Senior Software Engineer
+        caption: November 2013 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          I developed Trevipay core system from scratch with Microservice architecture and automated CI/CD.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Designed and developed API Spec, core messaging handler and invoicing with template. also They got CI/CD by Gitlab/Terraform
+
+      - layout: left
+        title: Hansol Inticube
+        link: hansol.com/eng/group/group10.jsp
+        # link_text: Hansol Inticube
+        sub_title: Software Engineer
+        caption: October 2008 - September 2012
+        quote: >
+          ongoing developing SMS/MMS messaging server of Korean Telecom.
+        description: | # this will include new lines to allow paragraphs
+          Developed/improved A Large Volume of SMS/MMS messaging service in Korea Telecom that got around 16 Million subscribers.
+
+      - layout: left
+        title: Witcom (subsidiary of Fine Digital)
+        link: witcom.co.kr
+        # link_text: witcom.co.kr
+        sub_title: Software Engineer
+        caption: October 2006 - September 2007
+        quote: >
+          ongoing develop for Colouring Service server of all major Telecom in S.Korea.
+
+        description: | # this will include new lines to allow paragraphs
+          My team invented a personalized ring tone service called Color Ring Back Tone for the first time and replaced the standard Intelligent Peripheral Controller with CRBT Controller. All major telecom companies in S.korea adopted and are still in use. As a result, Company was traded in a stock market.
+
+      - layout: left
+        title: Fine Digital
+        link: finedigital.co.kr
+        # link_text: finedigital.co.kr
+        sub_title: Software Engineer
+        caption: February 2001 - February 2004
+        quote: >
+          ongoing develop for SMS server of SKT and retail SMS service
+
+        description: | # this will include new lines to allow paragraphs
+          My Team developed an online SMS retail service and ongoing maintaining SMS gateway service of SKT telecommunication that got around 20 Million subscribers.
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Gachon University in South Korea
-        caption: 1998 - 2004
+        caption: 1998 - 2006
         sub_title: BSc Multimedia Engineering
         quote: >
           Established in 1939, Gachon University is an academic institute located in South Korea.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Majored in Multimedia engineering. Served Military service as Technical Research Personnel for three years in Fine Digital Co.ltd.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Shandong University in China
+        caption: 2005 - 2005
+        sub_title: Exchange Student Computer Science
+        quote: >
+          Shandong University is a public research comprehensive university in Jinan, is supported directly by the national government.
+        description: | # this will include new lines to allow paragraphs
+          I spent a year in Exchange student program and studied Computer science in Chinese.
+  
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Travel around the World in Progress.
+      - Hiking
+      - Musical Instruments
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#      Look at this cool image
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
