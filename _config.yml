@@ -127,26 +127,27 @@ content:
           Implemented SMS transmission function service as a main service of license for Lycos Korea , Yahoo Korea etc.  
           Developed value added services, such as email confirmation, reply, SMS, Noti, SMS URL push etc for other major portal sites (Yahoo. Nate, Daum etc)’s emails
           Debugging internal fax Voice Converting processes in UMS and maintaining them using POSIX C
-  - title: Education # Title for the section
-      layout: list # Type of content section (list/text)
-      content:
-        - layout: left
-          title: Gachon University in South Korea
-          caption: 1998 - 2006
-          sub_title: BSc Multimedia Engineering
-          quote: >
-            Established in 1939, Gachon University is an academic institute located in South Korea.
-          description: | # this will include new lines to allow paragraphs
-            Majored in Multimedia engineering. Served Military service as Technical Research Personnel for three years in Fine Digital Co.ltd.
 
-        - layout: left
-          title: Shandong University in China
-          caption: 2005 - 2005
-          sub_title: Exchange Student Computer Science
-          quote: >
-            Shandong University is a public research comprehensive university in Jinan, is supported directly by the national government.
-          description: | # this will include new lines to allow paragraphs
-            I spent a year in Exchange student program and studied Computer science in Chinese.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Gachon University in South Korea
+        caption: 1998 - 2006
+        sub_title: BSc Multimedia Engineering
+        quote: >
+          Established in 1939, Gachon University is an academic institute located in South Korea.
+        description: | # this will include new lines to allow paragraphs
+          Majored in Multimedia engineering. Served Military service as Technical Research Personnel for three years in Fine Digital Co.ltd.
+
+      - layout: left
+        title: Shandong University in China
+        caption: 2005 - 2005
+        sub_title: Exchange Student Computer Science
+        quote: >
+          Shandong University is a public research comprehensive university in Jinan, is supported directly by the national government.
+        description: | # this will include new lines to allow paragraphs
+          I spent a year in Exchange student program and studied Computer science in Chinese.
 
   - title: A Little More About Me
     layout: text
