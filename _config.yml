@@ -38,19 +38,13 @@ additional_links:
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sean and I'm a senior software engineer. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Sean and I'm a senior software engineer. As well as administrating systems I also have a solid skill for making micro services and web apps scalable. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in:  <mark>Microservice</mark>, <mark>CI/CD</mark> and <mark>AWS</mark>
 
 content:
   - title: Projects # Title for the section
@@ -71,21 +65,7 @@ content:
           The Global B2B Payments & Invoicing Network
         description: | # this will include new lines to allow paragraphs
           developed Trevipay core system from a scratch with Microservice architecture and automated CI/CD.
-      - layout: top-middle
-        title: MMS gateway of KT Telecom in S.Korea
-        link: kt.com
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-browser
-            url: kt.com
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          developed Template-based Invoicing microservice.  
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,7 +79,7 @@ content:
         quote: >
           I developed Trevipay core system from scratch with Microservice architecture and automated CI/CD.
         description: | # this will include new lines to allow paragraphs
-          Designed and developed API Spec, core messaging handler and invoicing with template. also They got CI/CD by Gitlab/Terraform
+          Designed and developed API Spec, core messaging handler and invoicing with template. also the development cycle got CI/CD by Gitlab/Terraform
 
       - layout: left
         title: Hansol Inticube
@@ -110,7 +90,9 @@ content:
         quote: >
           ongoing developing SMS/MMS messaging server of Korean Telecom.
         description: | # this will include new lines to allow paragraphs
-          Developed/improved A Large Volume of SMS/MMS messaging service in Korea Telecom that got around 16 Million subscribers.
+          Developed eNodeB alternative Solution for data offloading in LTE and exhibited it at the MWC 2013, the Mobile Asia EXPO 2012
+          Successfully delivered a large volume of MMS server to the Korea Telecom. An outstanding performance award earned at the end of the project
+          Developed an overload control mechanism in MMS Server and MMS Server could serve successfully a seamless service in the high peak time at New years day
 
       - layout: left
         title: Witcom (subsidiary of Fine Digital)
@@ -122,7 +104,9 @@ content:
           ongoing develop for Colouring Service server of all major Telecom in S.Korea.
 
         description: | # this will include new lines to allow paragraphs
-          My team invented a personalized ring tone service called Color Ring Back Tone for the first time and replaced the standard Intelligent Peripheral Controller with CRBT Controller. All major telecom companies in S.korea adopted and are still in use. As a result, Company was traded in a stock market.
+          Developed large volume of SMS receiving and transmitting process using GIP (global interface protocol)
+          Migrated existing SMS server based on ORACLE PROC, POSIX C to ALTIBASE main memory database ALTI-C (embedded c ),POSIX C
+          Developed music contents server of CRBT using Linux POSIX C and Mysql and operation
 
       - layout: left
         title: Fine Digital
@@ -134,10 +118,12 @@ content:
           ongoing develop for SMS server of SKT and retail SMS service
 
         description: | # this will include new lines to allow paragraphs
-          My Team developed an online SMS retail service and ongoing maintaining SMS gateway service of SKT telecommunication that got around 20 Million subscribers.
+          Implemented SMS transmission function service as a main service of license for Lycos Korea , Yahoo Korea etc.  
+          Developed value added services, such as email confirmation, reply, SMS, Noti, SMS URL push etc for other major portal sites (Yahoo. Nate, Daum etc)’s emails
+          Debugging internal fax Voice Converting processes in UMS and maintaining them using POSIX C
 
 
-  - title: Education # Title for the section
+- title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -157,7 +143,6 @@ content:
           Shandong University is a public research comprehensive university in Jinan, is supported directly by the national government.
         description: | # this will include new lines to allow paragraphs
           I spent a year in Exchange student program and studied Computer science in Chinese.
-  
 
   - title: A Little More About Me
     layout: text
